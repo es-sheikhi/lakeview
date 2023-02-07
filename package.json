@@ -1,0 +1,19 @@
+{
+  "name": "lakeview",
+  "version": "1.0.0",
+  "description": "A night club",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/es-sheikhi/lakeview.git"
+  },
+  "author": "Esmaeil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/es-sheikhi/lakeview/issues"
+  },
+  "homepage": "https://github.com/es-sheikhi/lakeview#readme"
+}

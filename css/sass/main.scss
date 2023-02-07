@@ -1,0 +1,23 @@
+$p_color:red;
+@mixin clear{
+    clear:both;
+    display:table;
+    content:none;
+}
+
+.section{
+    background-color:$p_color;
+    ul{
+        list-style:none;
+        li{
+            display:inline-block;
+            a{
+                text-decoration:none;
+
+                &:hover{
+                    background-color:$p_color;
+                }
+            }
+        }
+    }
+}

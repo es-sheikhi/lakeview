@@ -1,0 +1,19 @@
+.section {
+    background-color: red;
+}
+
+    .section ul {
+        list-style: none;
+    }
+
+        .section ul li {
+            display: inline-block;
+        }
+
+            .section ul li a {
+                text-decoration: none;
+            }
+
+                .section ul li a:hover {
+                    background-color: red;
+                }

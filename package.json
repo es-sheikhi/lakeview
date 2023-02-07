@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/es-sheikhi/lakeview/issues"
   },
-  "homepage": "https://github.com/es-sheikhi/lakeview#readme"
+  "homepage": "https://github.com/es-sheikhi/lakeview#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
 }

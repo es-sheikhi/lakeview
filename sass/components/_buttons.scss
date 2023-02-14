@@ -24,8 +24,13 @@
 
     &:active{
         transform:translateY(-.1rem);
-        box-shadow:0 .5rem 1rem rgba($black);
+        box-shadow:0 .5rem 1rem rgba($black, 0.5);
     }
 
+    &--brown{
+        background-color:$brown;
+        color:$gray-light-1;
+        margin-right:1rem;
+    }
        
 }

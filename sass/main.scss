@@ -1,6 +1,8 @@
-@import "abstracts/mixins.scss";
-@import "abstracts/variables.scss";
-@import "abstracts/functions.scss";
-@import "base/base.scss";
-@import "base/animations.scss";
-@import "layout/header.scss";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "layout/header";
+@import "components/buttons";

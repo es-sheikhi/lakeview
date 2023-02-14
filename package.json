@@ -4,7 +4,8 @@
   "description": "A night club",
   "main": "index.html",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss resources/css/style.css"
+    "compile:sass": "node-sass sass/main.scss resources/css/style.css",
+	"watch:sass":"nodemon -e scss -x \"npm run compile:sass\""
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/es-sheikhi/lakeview#readme",
   "dependencies": {
+    "live-server": "^1.2.2",
     "node-sass": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }

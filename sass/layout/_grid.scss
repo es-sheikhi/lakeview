@@ -1,12 +1,10 @@
 .row {
-    width: 114rem;
+    max-width: 114rem;
     margin: 0 auto;
     margin-top: $vertical-gutter;
     @include clearfix;
 
     [class^="col-"] {
-        background-color: $primary-light;
-        height: 5rem;
         float: left;
 
         &:not(:last-child) {

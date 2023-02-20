@@ -253,7 +253,8 @@ body {
   border-radius: .3rem;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   height: 40rem;
-  position: relative; }
+  position: relative;
+  color: #fff; }
   .amenity-box--1 {
     background-image: linear-gradient(to right bottom, rgba(40, 180, 133, 0.5), rgba(79, 97, 42, 0.5)), url(img/am-img-1.jpg);
     background-size: cover;
@@ -294,3 +295,23 @@ body {
     opacity: .7; }
   .amenity-box:hover .amenity-box__title {
     opacity: 0; }
+  .amenity-box__content {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 85%;
+    opacity: 0;
+    transition: all .5s; }
+  .amenity-box:hover .amenity-box__content {
+    opacity: 1;
+    top: 50%; }
+  .amenity-box__icon {
+    font-size: 6rem;
+    background-image: linear-gradient(to right bottom, #fff, #ffb900);
+    margin-bottom: .5rem;
+    -webkit-background-clip: text;
+    color: transparent; }
+  .amenity-box__text {
+    font-size: 1.5rem; }

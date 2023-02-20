@@ -223,3 +223,28 @@ body {
   .btn-rectangular:active {
     transform: translateY(-0.1rem);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); }
+
+.composition {
+  position: relative;
+  margin-left: 5rem; }
+  .composition__img {
+    width: 45%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 1rem;
+    position: absolute;
+    transition: all .3s; }
+    .composition__img--1 {
+      left: 0;
+      top: 0; }
+    .composition__img--2 {
+      left: 10rem;
+      top: 10rem; }
+    .composition__img--3 {
+      left: 20rem;
+      top: 20rem; }
+    .composition__img:hover {
+      transform: scale(1.05) translate(-0.5rem);
+      z-index: 20;
+      box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.7); }
+    .composition__img:hover .composition__img:not(:hover) {
+      transform: scale(0.8); }

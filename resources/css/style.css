@@ -392,6 +392,8 @@ body {
       text-align: center;
       font-size: 1.3rem;
       padding: 2rem; }
+      .plan__bullets ul li:not(:last-child) {
+        border-bottom: 1px solid #f7f7f7; }
 
 .amenity-box {
   border-radius: .3rem;

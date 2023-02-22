@@ -58,28 +58,30 @@
 		text-transform: uppercase;
 		font-size: 2rem;
 		font-weight: 400;
-		width:15rem;
-		text-align:right;
-		padding:1rem 1.5rem;
+		width: 15rem;
+		text-align: right;
+		padding: 1rem 1.5rem;
 
 		&--1 {
-
 			background-image: linear-gradient(to right bottom, rgba($secondary-1, .7), rgba($secondary-2, .7));
 		}
 	}
 
-	&__bullets{
-		ul{
-			color:$gray-dark;
-			list-style:none;
-			width:90%;
-			margin: 0 auto; 
+	&__bullets {
+		ul {
+			color: $gray-dark;
+			list-style: none;
+			width: 90%;
+			margin: 0 auto;
 
-			li{
-				text-align:center;
-				font-size:1.3rem;
-				padding:2rem;
-				border-bottom:1px solid $gray-light;
+			li {
+				text-align: center;
+				font-size: 1.3rem;
+				padding: 2rem;
+
+				&:not(:last-child) {
+					border-bottom: 1px solid $gray-light-1;
+				}
 			}
 		}
 	}

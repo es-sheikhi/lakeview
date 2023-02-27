@@ -207,11 +207,11 @@ body {
 
 .btn:hover {
   outline: none;
-  transform: translateY(-1.2rem);
+  transform: translateY(-0.5rem);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5); }
 
 .btn:active {
-  transform: translateY(-0.1rem);
+  transform: translateY(0.1rem);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); }
 
 .btn--brown {
@@ -358,6 +358,8 @@ body {
       background-color: #ffb900;
       transform: rotateY(-180deg);
       border-radius: 0 3rem 0 3rem; }
+      .plan__side--back-1 {
+        background-image: linear-gradient(to right bottom, #28b485, #4f612a); }
   .plan:hover .plan__side--front {
     transform: rotateY(180deg); }
   .plan:hover .plan__side--back {
@@ -394,6 +396,23 @@ body {
       padding: 2rem; }
       .plan__bullets ul li:not(:last-child) {
         border-bottom: 1px solid #f7f7f7; }
+  .plan__button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    text-align: center; }
+  .plan__cost-box {
+    color: #fff;
+    margin-bottom: 16rem; }
+  .plan__cost-value {
+    font-size: 4.5rem;
+    font-weight: 100; }
+  .plan__cost-dvoice-duration {
+    font-size: 1.5rem;
+    text-transform: uppercase; }
 
 .amenity-box {
   border-radius: .3rem;

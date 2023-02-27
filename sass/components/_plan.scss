@@ -24,6 +24,9 @@
 			background-color: $secondary-light;
 			transform: rotateY(-180deg);
 			border-radius: 0 3rem 0 3rem;
+			&-1{
+				background-image:linear-gradient(to right bottom, $primary-light, $primary-dark)
+			}
 		}
 	}
 
@@ -84,5 +87,28 @@
 				}
 			}
 		}
+	}
+
+	&__button {
+		position: absolute;
+		top: 50%;
+		@include center-object;
+		width: 90%;
+		text-align: center;
+	}
+
+	&__cost-box {
+		color: $white;
+		margin-bottom:16rem;
+	}
+
+	&__cost-value {
+		font-size: 4.5rem;
+		font-weight: 100;
+	}
+
+	&__cost-dvoice-duration {
+		font-size: 1.5rem;
+		text-transform:uppercase;
 	}
 }

@@ -240,6 +240,12 @@ body {
   .btn-rectangular:active {
     transform: translateY(-0.1rem);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5); }
+  .btn-rectangular--white:link, .btn-rectangular--white:visited {
+    color: #fff;
+    border-bottom: 0.1rem solid #fff; }
+  .btn-rectangular--white:hover, .btn-rectangular--white:active {
+    color: #fff;
+    border-bottom: 0.1rem solid #846c38; }
 
 .bg-video {
   position: absolute;

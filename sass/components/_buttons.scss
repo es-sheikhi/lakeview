@@ -36,7 +36,8 @@
 }
 
 .btn-rectangular {
-    display:inline-block; 
+    display: inline-block;
+
     &:link,
     &:visited {
         color: $brown;
@@ -58,5 +59,20 @@
     &:active {
         transform: translateY(-.1rem);
         box-shadow: 0 .5rem 1rem rgba($black,.5);
+    }
+
+    &--white {
+
+        &:link,
+        &:visited {
+            color: $white;
+            border-bottom: .1rem solid $white;
+        }
+
+        &:hover,
+        &:active {
+            color: $white;
+            border-bottom: .1rem solid $brown;
+        }
     }
 }

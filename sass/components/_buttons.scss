@@ -31,6 +31,10 @@
         background-color:$brown;
         color:$gray-light-1;
         margin-right:1rem;
+        margin-top:2rem;
+        @include responsive(tab-port){
+            margin:1rem;
+        }
     }
        
 }

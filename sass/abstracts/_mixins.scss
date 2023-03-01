@@ -16,25 +16,25 @@
 
 @mixin responsive($break) {
     @if $break==phone {
-        @media only screen and (max-width:576px ) {
+        @media only screen and (max-width:36em ) {
             @content;
         }
     }
 
     @if $break==tab-port {
-        @media only screen and (max-width:768px ) {
+        @media only screen and (max-width:48em ) {
             @content;
         }
     }
 
     @if $break==tab-land {
-        @media only screen and (max-width:991px ) {
+        @media only screen and (max-width:61.9em ) {
             @content;
         }
     }
 
     @if $break==big-desktop {
-        @media only screen and (min-width:1200px ) {
+        @media only screen and (min-width:75em ) {
             @content;
         }
     }

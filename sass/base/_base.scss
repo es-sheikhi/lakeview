@@ -33,4 +33,8 @@ body {
     line-height: 1.3;
     padding: 1.5rem;
     color: #777;
+
+    @include responsive(tab-port) {
+        padding: 0;
+    }
 }

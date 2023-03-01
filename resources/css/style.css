@@ -1,3 +1,4 @@
+/* Responsive*/
 /* colors 
 primary-light:
 */
@@ -8,6 +9,18 @@ primary-light:
 
 html {
   font-size: 62.5%; }
+  @media only screen and (min-width: 1200px) {
+    html {
+      font-size: 75%; } }
+  @media only screen and (max-width: 991px) {
+    html {
+      font-size: 56.25%; } }
+  @media only screen and (max-width: 768px) {
+    html {
+      font-size: 50%; } }
+  @media only screen and (max-width: 576px) {
+    html {
+      font-size: 37.5%; } }
 
 body {
   font-family: "lora, serif";

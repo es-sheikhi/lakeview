@@ -584,6 +584,10 @@ body {
   height: 40rem;
   position: relative;
   color: #fff; }
+  @media only screen and (max-width: 48em) {
+    .amenity-box {
+      height: 60rem;
+      margin: 1.5rem; } }
   .amenity-box--1 {
     background-image: linear-gradient(to right bottom, rgba(40, 180, 133, 0.5), rgba(79, 97, 42, 0.5)), url(img/am-img-1.jpg);
     background-size: cover;
@@ -611,6 +615,9 @@ body {
     color: #fff;
     opacity: .7;
     transition: opacity .2s; }
+    @media only screen and (max-width: 48em) {
+      .amenity-box__title {
+        opacity: 0; } }
   .amenity-box__overlay {
     position: absolute;
     top: 0;
@@ -622,6 +629,9 @@ body {
     transition: opacity .2s; }
   .amenity-box:hover .amenity-box__overlay {
     opacity: .7; }
+    @media only screen and (max-width: 48em) {
+      .amenity-box:hover .amenity-box__overlay {
+        opacity: 0; } }
   .amenity-box:hover .amenity-box__title {
     opacity: 0; }
   .amenity-box__content {
@@ -633,6 +643,10 @@ body {
     width: 85%;
     opacity: 0;
     transition: all .5s; }
+    @media only screen and (max-width: 48em) {
+      .amenity-box__content {
+        opacity: 1;
+        top: 50%; } }
   .amenity-box:hover .amenity-box__content {
     opacity: 1;
     top: 50%; }

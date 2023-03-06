@@ -2,11 +2,16 @@
     max-width: 114rem;
     margin: 0 auto;
 
+    @include responsive(tab-port) {
+        max-width: 70rem;
+        text-align:center;
+    }
+
     &:not(:last-child) {
         margin-top: $vertical-gutter;
 
         @include responsive(tab-port) {
-            margin-top: $vertical-gutter-small;
+            margin-top: $vertical-gutter-small!important;
         }
     }
 

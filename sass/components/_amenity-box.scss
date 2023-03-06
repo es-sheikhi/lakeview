@@ -4,6 +4,7 @@
     height: 40rem;
     position: relative;
     color:$white;
+
     &--1 {
         background-image: linear-gradient(to right bottom, rgba($primary-light, 0.5), rgba($primary-dark, 0.5)), url(img/am-img-1.jpg);
         background-size: cover;
